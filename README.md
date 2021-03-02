@@ -13,10 +13,10 @@ It will allow you to wirelessly control devices with the Apex.
 ## Hardware
 
 Currently this project should run on following relay boards, all from the same manufacturer.
-[LC Technologies 5v 4 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-remote-control-switch-wireless-transmitter-smart-home-p-13420.html)
-[LC Technologies 12v 4 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-remote-control-switch-wireless-transmitter-smart-home-p-13421.html)
-[LC Technologies 5v 2 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-smart-home-remote-control-switch-android-phone-control-transmission-distance-100m-p-12592.html)
-[LC Technologies 12v 2 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-smart-home-remote-control-switch-android-phone-control-transmission-distance-100m-p-12593.html)
+- [LC Technologies 5v 4 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-remote-control-switch-wireless-transmitter-smart-home-p-13420.html)
+- [LC Technologies 12v 4 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-remote-control-switch-wireless-transmitter-smart-home-p-13421.html)
+- [LC Technologies 5v 2 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-smart-home-remote-control-switch-android-phone-control-transmission-distance-100m-p-12592.html)
+- [LC Technologies 12v 2 channel](https://www.icstation.com/esp8266-wifi-channel-relay-module-smart-home-remote-control-switch-android-phone-control-transmission-distance-100m-p-12593.html)
 
 You will need to change the Relay Count setting from 4 to 2 for the 2 channel relay boards.
 
@@ -24,8 +24,8 @@ All relay boards I received were rated for 240V AC / 30V DC at 10A. I personally
 
 I also recommend purchasing two other components if you have not worked with the esp8266 platform before.
 
-[Spare ESP-01 Chip](https://www.icstation.com/esp8266-remote-serial-port-wifi-transceiver-wireless-module-apsta-wifi-board-smart-home-p-4928.html)
-[ESP-01 USB Programmer](https://www.icstation.com/esp8266-wifi-module-pinboard-cellphone-computer-wireless-communication-adapter-wifi-board-module-p-8857.html)
+- [Spare ESP-01 Chip](https://www.icstation.com/esp8266-remote-serial-port-wifi-transceiver-wireless-module-apsta-wifi-board-smart-home-p-4928.html)
+- [ESP-01 USB Programmer](https://www.icstation.com/esp8266-wifi-module-pinboard-cellphone-computer-wireless-communication-adapter-wifi-board-module-p-8857.html)
 
 You will need the programmer to upload this software to the device. There is currently no supported way to upload this software to the board or reset the settings without an ESP-01 programmer.
 
