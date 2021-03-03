@@ -25,7 +25,7 @@ All relay boards I received were rated for 240V AC / 30V DC at 10A. I personally
 I also recommend purchasing two other components if you have not worked with the esp8266 platform before.
 
 - [Spare ESP-01 Chip](https://www.icstation.com/esp8266-remote-serial-port-wifi-transceiver-wireless-module-apsta-wifi-board-smart-home-p-4928.html)
-- [ESP-01 USB Programmer](https://www.icstation.com/esp8266-wifi-module-pinboard-cellphone-computer-wireless-communication-adapter-wifi-board-module-p-8857.html)
+- [ESP-01 USB Programmer](https://www.amazon.com/gp/product/B07V556Q82/) (Look for one with a built in switch)
 
 You will need the programmer to upload this software to the device. There is currently no supported way to upload this software to the board or reset the settings without an ESP-01 programmer.
 
