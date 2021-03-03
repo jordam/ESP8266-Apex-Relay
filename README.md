@@ -52,7 +52,7 @@ Once you have uploaded the software you can plug the ESP-01 into the relay board
 
 Once you have completed the first boot and have powered it back it should be ready for configuration and will launch a wifi access point. Use a phone, or computer to look for a "RelayConfig" wifi to confirm it is awaiting configuration.
 
-# Configuration
+## Configuration
 
 Once you have completed installation you will need to configure the device.
 Connect to the "RelayConfig" access point with your phone or computer and go to http://192.168.1.1/ .
@@ -75,7 +75,7 @@ If the wifi info was wrong it should reset itself and start the RelayConfig acce
 
 If you encounter an unforeseen issue you can restart this process by following the instructions in "Installation" again to reinstall the software.
 
-# Usage
+## Usage
 
 Standard usage will generate two outlets per relay on the relay board. For a 4 relay board this should generate the following.
 ```
@@ -95,13 +95,13 @@ I use this to confirm remote valves are opened before automatically turning on h
 
 'Extreme' feedback mode generates a lot of extra outlets behind the scenes to track when verify and control outlets don’t all match. This mode will generate a W_Relay_E outlet. When this outlet is set to ON it means there is an error because not all relay states are currently in sync. This can allow you to easily reference one unified outlet to validate your commands at the expense of using up extra virtual outlets.
 
-# Development
+## Development
 
 Want to contribute? Great! I'm open to pull requests an collaboration to add features and relay boards.
 
 On my end I would like to target more consumer oriented ESP8266 relay devices. I have a few 120v devices that in theory might be a good candidate if they can be flashed OTA. This route could simplify installation further and open up standard outlets to non electricians.
 
-# License
+## License
 
 Copyright (c) 2021 (https://github.com/jordam)
 
